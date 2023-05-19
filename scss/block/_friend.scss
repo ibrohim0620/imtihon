@@ -1,0 +1,118 @@
+.friend__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-image: url('../../img/friend-bgr.svg');
+    background-position: 16px 80px;
+}
+
+.friend__content-box {
+    max-width: 465px;
+
+}
+
+.friend__img-block {
+    background-repeat: no-repeat;
+    background-image: url('../../img/friend-bg.svg');
+    background-position: 0 113px;
+}
+
+.friend__title {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 68px;
+    text-transform: capitalize;
+    color: #002A48;
+    margin-bottom: 4px;
+}
+
+.friend__title2 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #002A48;
+    margin-bottom: 15px;
+}
+
+.friend__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242B33;
+    margin-bottom: 23px;
+
+}
+
+.friend__button-box {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.friend__button-on {
+    border: 1.5px solid #242B33;
+    padding: 16.5px 46px;
+    border-radius: 57px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.friend__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #003459;
+}
+
+.friend__button-in {
+    background-color: #242B33;
+    padding: 18px 37px;
+    border-radius: 57px;
+    text-align: center;
+}
+
+.friend__link2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FDFDFD;
+}
+
+.friend__img-box2 {
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .friend__container {
+        flex-direction: column;
+
+    }
+
+    .friend__img-box {
+        display: none;
+    }
+
+    .friend__img-box2 {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .friend__title {
+        font-size: 46px;
+        line-height: 60px;
+    }
+
+    .friend__title2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .friend__text {
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 390px;
+    }
+
+}
